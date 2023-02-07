@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T05:58:07.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xm79oWQ27eakd2Ygnw5P" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T06:11:01.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7pHRveFRb_8Mn7MyFLF8" version="20.8.15" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="vr878de87EXBtDR58rlz-5" value="含PSID公司权限表&lt;br&gt;(UI_DATA_ENTITLE&lt;br&gt;MENT_XXX)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="32" y="204" width="136" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vr878de87EXBtDR58rlz-39" value="组织树形" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="vr878de87EXBtDR58rlz-39" value="智脑-组织树形" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="31" y="320" width="136" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vr878de87EXBtDR58rlz-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;dashed=1;dashPattern=8 8;" parent="77e6c97f196da883-5" vertex="1">
@@ -101,9 +101,6 @@
         <mxCell id="vr878de87EXBtDR58rlz-37" value="NUC用户ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vr878de87EXBtDR58rlz-33" vertex="1">
           <mxGeometry y="90" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vr878de87EXBtDR58rlz-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;XXX表示公司数据类型&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1028" y="450" width="140" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="vr878de87EXBtDR58rlz-41" value="智脑报表" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="610" y="107" width="150" height="450" as="geometry" />
         </mxCell>
@@ -124,6 +121,85 @@
         </mxCell>
         <mxCell id="a___QXRbTVv6GRY1asut-11" value="统一处理：infa/TBDS/接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="570" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-18" value="智脑组织树形" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="570" width="144" height="300" as="geometry">
+            <mxRectangle x="779" y="40" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-19" value="公司ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="30" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-20" value="公司父级ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="60" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-21" value="公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="90" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-24" value="一级公司ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="120" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-25" value="一级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="150" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-26" value="二级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="180" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-27" value="二级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="210" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-23" value="版本（历史变动日期）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="240" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-28" value="是否含子公司" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-18">
+          <mxGeometry y="270" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="69" y="690" width="500" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-31" value="1.&amp;nbsp; 智脑报表层级结构使用&lt;br&gt;&lt;br&gt;2.&amp;nbsp; 根据树形需求，预留多级&lt;br&gt;&lt;br&gt;3.&amp;nbsp; 版本：如20220101，查询历史树结构&lt;br&gt;&lt;br&gt;4.&amp;nbsp; 是否含子公司，如含用户有新增子公司，需自动赋权" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;horizontal=1;spacingTop=0;spacing=2;spacingRight=0;fontSize=14;labelBorderColor=none;labelBackgroundColor=#FFCC99;fontFamily=Verdana;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="690" width="353" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-33" value="统一处理：infa/TBDS/接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-34" value="智脑组织树形" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="570" width="144" height="300" as="geometry">
+            <mxRectangle x="779" y="40" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-35" value="公司ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="30" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-36" value="公司父级ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="60" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-37" value="公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="90" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-38" value="一级公司ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="120" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-39" value="一级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="150" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-40" value="二级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="180" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-41" value="二级公司名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="210" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-42" value="版本（历史变动日期）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="240" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-43" value="是否含子公司" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="a___QXRbTVv6GRY1asut-34">
+          <mxGeometry y="270" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="69" y="690" width="500" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="a___QXRbTVv6GRY1asut-45" value="1.&amp;nbsp; 智脑报表层级结构使用&lt;br&gt;&lt;br&gt;2.&amp;nbsp; 根据树形需求，预留多级&lt;br&gt;&lt;br&gt;3.&amp;nbsp; 版本：如20220101，查询历史树结构&lt;br&gt;&lt;br&gt;4.&amp;nbsp; 是否含子公司，如含用户有新增子公司，需自动赋权" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;horizontal=1;spacingTop=0;spacing=2;spacingRight=0;fontSize=14;labelBorderColor=none;labelBackgroundColor=#FFCC99;fontFamily=Verdana;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="690" width="353" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
